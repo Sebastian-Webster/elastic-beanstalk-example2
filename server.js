@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('AWS Beanstalk successfully worked!!!')
+    res.send('Code pipeline worked!!!')
 })
 
 const PORT = process.env.PORT || 3000;
